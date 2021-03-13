@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_page"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"/>
+        <item
+            android:id="@+id/userprofile"
+            android:title="@string/profile"
+            android:icon="@drawable/ic_profile_overview"
+            />
+        <item
+            android:id="@+id/user_achiev"
+            android:title="@string/achiev"
+            android:icon="@drawable/ic_menu_achievements"
+            />
+        <item
+            android:id="@+id/blood_storage"
+            android:title="@string/fndBlood"
+            android:icon="@drawable/ic_find_hospital"
+            />
+        <item
+            android:id="@+id/nearby_hospital"
+            android:icon="@drawable/ic_find_hospital"
+            android:title="@string/nearH" />
+        <item
+            android:id="@+id/logout"
+            android:title="@string/lgout"
+            android:icon="@drawable/ic_logout"
+            />
+    </group>
+
+</menu>
